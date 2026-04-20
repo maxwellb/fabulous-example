@@ -6,5 +6,6 @@ See [notes.md](notes/notes.md) for now.
 - `npm init` in repo root
 - `npm install --save-dev bun` .. create `.gitignore`
 - `npm install` chains `cd apps && npx bun install`
-- disable package-lock at root so "real" packages don't get confused
+- Disable package-lock at root so "real" packages don't get confused
 - `npm run dev` chains `cd apps && npx bun run dev`
+- Run project creation from templates via CLI
