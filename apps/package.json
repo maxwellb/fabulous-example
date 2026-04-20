@@ -3,7 +3,15 @@
   "version": "0.1.0",
   "author": "Maxwell Bloch <maxwellb@users.noreply.github.com>",
   "description": "Response to ECE-Take-Home",
+  "private": true,
   "scripts": {
+    "dev": "concurrently --kill-others --teardown \"bun run dev-teardown\" --prefix \"[{index}] {time}\" --names \"stipend-ui\" \"bun run -F @fabulous-example/stipend-ui dev\" || return 0",
+    "dev-teardown": "echo \"Cleanup, cleanup, everybody, everywhere...\""
   },
-  "private": true
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
 }

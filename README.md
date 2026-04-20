@@ -9,3 +9,6 @@ See [notes.md](notes/notes.md) for now.
 - Disable package-lock at root so "real" packages don't get confused
 - `npm run dev` chains `cd apps && npx bun run dev`
 - Run project creation from templates via CLI
+- Add MDX support
+- Run "apps" concurrently
+- Run from root `package.json`

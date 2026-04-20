@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "author": "Maxwell Bloch <maxwellb@users.noreply.github.com>",
   "description": "Response to ECE-Take-Home",
+  "private": true,
   "scripts": {
-    "clean": "rm -rf node_modules",
+    "clean": "rm -rf node_modules pps/node_modules apps/packages/*/node_modules",
     "dev": "cd apps && npx bun run dev",
     "postinstall": "cd apps && npx bun install"
   },
-  "private": true,
   "devDependencies": {
     "bun": "^1.3.13"
   }
