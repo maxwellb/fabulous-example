@@ -1,0 +1,9 @@
+{
+  "name": "@fabulous-example/apps",
+  "version": "0.1.0",
+  "author": "Maxwell Bloch <maxwellb@users.noreply.github.com>",
+  "description": "Response to ECE-Take-Home",
+  "scripts": {
+  },
+  "private": true
+}
