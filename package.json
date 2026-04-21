@@ -5,11 +5,12 @@
   "description": "Response to ECE-Take-Home",
   "private": true,
   "scripts": {
-    "clean": "rm -rf node_modules pps/node_modules apps/packages/*/node_modules",
+    "clean": "rm -rf node_modules pps/node_modules apps/packages/*/node_modules apps/packages/*/.next",
     "dev": "cd apps && npx bun run dev",
     "postinstall": "cd apps && npx bun install"
   },
   "devDependencies": {
-    "bun": "^1.3.13"
+    "bun": "^1.3.13",
+    "typescript": "^5"
   }
 }
