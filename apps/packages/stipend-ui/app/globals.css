@@ -18,4 +18,8 @@
     @apply bg-background text-foreground font-sans;
     @apply p-4 md:p-8;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
 }
