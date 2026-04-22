@@ -1,14 +1,17 @@
 {
   "name": "@fabulous-example/stipend-ui",
   "version": "0.1.0",
+  "author": "Maxwell Bloch <maxwellb@users.noreply.github.com>",
+  "description": "Response to ECE-Take-Home (UI)",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --experimental-https",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@fabulous-example/stipend-api": "workspace:*",
     "@mdx-js/loader": "^3.1.1",
     "@mdx-js/react": "^3.1.1",
     "@next/mdx": "^16.2.4",
@@ -25,7 +28,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "catalog:"
   },
   "ignoreScripts": [
     "sharp",

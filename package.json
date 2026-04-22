@@ -5,7 +5,7 @@
   "description": "Response to ECE-Take-Home",
   "private": true,
   "scripts": {
-    "clean": "rm -rf node_modules pps/node_modules apps/packages/*/node_modules apps/packages/*/.next",
+    "clean": "rm -rf node_modules apps/node_modules apps/packages/*/node_modules apps/packages/*/.next",
     "dev": "cd apps && npx bun run dev",
     "postinstall": "cd apps && npx bun install"
   },

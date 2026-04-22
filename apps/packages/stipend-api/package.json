@@ -1,0 +1,18 @@
+{
+  "name": "@fabulous-example/stipend-api",
+  "version": "0.1.0",
+  "author": "Maxwell Bloch <maxwellb@users.noreply.github.com>",
+  "description": "Response to ECE-Take-Home (API)",
+  "private": true,
+  "scripts": {
+    "test": "bun test",
+    "dev": "bun run --watch server.ts"
+  },
+  "dependencies": {
+    "elysia": "catalog:"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "module": "index.js"
+}

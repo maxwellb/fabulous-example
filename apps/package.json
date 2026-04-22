@@ -5,12 +5,16 @@
   "description": "Response to ECE-Take-Home",
   "private": true,
   "scripts": {
-    "dev": "concurrently --kill-others --teardown \"bun run dev-teardown\" --prefix \"[{index}] {time}\" --names \"stipend-ui\" \"bun run -F @fabulous-example/stipend-ui dev\" || return 0",
+    "dev": "concurrently --kill-others --teardown \"bun run dev-teardown\" --prefix \"[{index}] {time}\" --names \"stipend-ui,stipend-api\" \"bun run -F @fabulous-example/stipend-ui dev\" \"bun run -F @fabulous-example/stipend-api dev\" || return 0",
     "dev-teardown": "echo \"Cleanup, cleanup, everybody, everywhere...\""
   },
   "workspaces": [
     "packages/*"
   ],
+  "catalog": {
+    "elysia": "1.4.28",
+    "typescript": "^5"
+  },
   "devDependencies": {
     "concurrently": "^9.2.1"
   }
