@@ -9,10 +9,12 @@
     "dev": "bun run --watch server.ts"
   },
   "dependencies": {
-    "elysia": "catalog:"
+    "elysia": "catalog:",
+    "luxon": "^3.7.2"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/luxon": "^3.7.1"
   },
   "module": "index.js"
 }
