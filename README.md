@@ -1,4 +1,5 @@
-See [notes.md](notes/notes.md) for now.
+# README (This File)
+
 
 ## Process
 
@@ -12,3 +13,26 @@ See [notes.md](notes/notes.md) for now.
 - Add MDX support
 - Run "apps" concurrently
 - Run from root `package.json`
+- Host api on "/api"
+- Managed client, server actions, separate package for api
+
+## PII Handling
+
+- Any user provided data is sensitive
+- Specific identifiers such as email, DOB, etc. get extra treatment
+
+## Business Rules and Handoff
+
+- TODO
+
+## AI Tool usage
+
+I did not use any agentic coding. However, I do have an active
+GitHub copilot subscription, and this provided smart completions
+in several cases. I would characterize this as saving me a few
+seconds here and there.
+
+Additionally, web search results today have an AI component
+which assisted me with information retrieval, documentation,
+usage examples, etc.
+

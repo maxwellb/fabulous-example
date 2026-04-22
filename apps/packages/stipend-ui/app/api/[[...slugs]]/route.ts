@@ -1,6 +1,4 @@
-import { Api } from "@fabulous-example/stipend-api";
-
-const api = Api("/api");
+import api from "@/app/api";
 
 export const GET = api.fetch;
 export const POST = api.fetch;
